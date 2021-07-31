@@ -1,0 +1,27 @@
+//tablet version
+
+@media screen and (max-width: 1050px){
+    .leftside_card{
+        .stats_block{
+            width: 100%;
+        }
+
+        h1{
+            font-size: 3.2rem;
+            line-height: 3.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .description{
+            width: 100%;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.5px;
+
+        }
+    }
+    .stats_name{
+        font-size: 1.1rem;
+    }
+
+}
