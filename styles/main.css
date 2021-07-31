@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', 'sans-serif';
+  font-family: "Inter", "sans-serif";
   background-color: #090b1a;
 }
 
@@ -150,7 +150,7 @@ img {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 0.8rem;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .rightside_card {

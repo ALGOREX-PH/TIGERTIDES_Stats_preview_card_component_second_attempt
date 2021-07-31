@@ -1,8 +1,8 @@
-.image_mobile_version{
+.image_mobile_version {
     display: none;
-}
-
-.card{
+  }
+  
+  .card {
     align-items: stretch;
     margin: 5%;
     max-width: 1140px;
@@ -10,13 +10,13 @@
     display: flex;
     justify-content: center;
     border-radius: 1rem;
-}
-img{
+  }
+  img {
     height: 100%;
     mix-blend-mode: multiply;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-}
-.extra_purple{
+  }
+  .extra_purple {
     position: absolute;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
     background-color: $accent;
@@ -25,73 +25,69 @@ img{
     top: 0px;
     left: 0px;
     opacity: 0.2;
-
-}
-.leftside_card{
-    span{
-        color: $accent;
+  }
+  .leftside_card {
+    span {
+      color: $accent;
     }
-
-    .stats_block{
+  
+    .stats_block {
       height: 100%;
       width: 85%;
       justify-content: space-between;
       display: flex;
       flex-direction: column;
-
     }
-    h1{
-        color: $main_heading_and_stats;
-        font-size: 3.4rem;
-        margin-bottom: 2.8rem;
-        line-height: 4.2rem;
-        letter-spacing: 0.6px;
+    h1 {
+      color: $main_heading_and_stats;
+      font-size: 3.4rem;
+      margin-bottom: 2.8rem;
+      line-height: 4.2rem;
+      letter-spacing: 0.6px;
     }
     padding: 6%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
-    .description{
-        color: $main_paragraph;
-        line-height: 2.4rem;
-        letter-spacing: 0.5px;
-        font-size: 1.4rem;
-        
+  
+    .description {
+      color: $main_paragraph;
+      line-height: 2.4rem;
+      letter-spacing: 0.5px;
+      font-size: 1.4rem;
     }
-}
-.stats{
-   align-items: center;
-   justify-content: space-between;
-   display: flex;
-   margin-top: 4rem;
-}
-
-.stat_block{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-
-}
-
-.stats_number{
-  color: $main_heading_and_stats;
-  font-weight: bold;
-  font-size: 2.2rem;
-}
-
-.stats_name{
+  }
+  .stats {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 4rem;
+  }
+  
+  .stat_block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .stats_number {
+    color: $main_heading_and_stats;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  
+  .stats_name {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 1.2rem;
     color: $stats_headings;
     margin-top: 0.8rem;
-
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.rightside_card{
+  
+    font-family: "Lexend Deca", sans-serif;
+  }
+  
+  .rightside_card {
     position: relative;
     background-color: $accent;
     border-radius: 0rem 0.6rem 0.6rem 0rem;
-}
+  }
